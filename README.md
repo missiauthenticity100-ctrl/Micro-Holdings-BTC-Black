@@ -1,12 +1,11 @@
-# Micro-Holdings-BTC-Black
-BTC-Black algorithmic coin
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.24;
+# Micro Holdings — BTC-Black (BTC-B)
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+Bitcoin Black (BTC-B) algorithmic coin.
 
-contract BTCBlack is ERC20 {
-    constructor() ERC20("Bitcoin Black", "BTC-B") {
-        _mint(msg.sender, 21_000_000 * 10**18);
-    }
-}
+This repo contains the standalone BTC-B coin and related buy/sell software.
+
+- BTC-Pro: Bridge coin
+- Rakz Token: Ethereum ERC-20 buy token
+- Stakz Token: Ethereum ERC-20 sell token
+
+Connected to Grokchain Oracle for real data.
