@@ -1,0 +1,22 @@
+# Micro Holdings — BTC-Black Ecosystem
+
+**Micro Holdings** is building a family of Bitcoin-inspired algorithmic tokens on Ethereum-compatible chains. All tokens are connected to the **Grokchain Oracle** for real-time Bitcoin price feeds and intelligent algorithmic execution.
+
+## Token Family
+
+### Core Tokens
+- **BTC-Black (BTC-B)** – Flagship algorithmic coin combining Bitcoin scarcity with dynamic smart contract mechanisms.
+- **BTC-Pro** – Bridge coin for liquidity and cross-ecosystem value transfer.
+- **Rakz Token** – ERC-20 optimized for buying into the BTC-Black ecosystem.
+- **Stakz Token** – ERC-20 optimized for selling, exiting, and staking rewards.
+
+### Premium Tier Tokens
+- **BTC-Pearl (BTC-PRL)** – Elegant, lower-volatility algorithmic token focused on stability and refined value.
+- **BTC-Platinum (BTC-PLT)** – Premium high-tier token offering enhanced rewards and advanced algorithmic features.
+
+## Project Overview
+This repository contains the standalone implementation of the entire BTC-Black ecosystem, including all token contracts, buy/sell infrastructure, and oracle integration.
+
+All tokens use custom algorithmic logic powered by real market data from the Grokchain Oracle.
+
+## Repository Structure
